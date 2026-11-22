@@ -8,14 +8,16 @@ __pycache__/
 *.py[cod]
 *.pyo
 
-# Django
+# Django Database
 db.sqlite3
-db.sqlite3-journal
-staticfiles/
+*.sqlite3
 
 # Environment Variables
 .env
 .env.*
+
+# Static and Media
+staticfiles/
 
 # IDE
 .vscode/
